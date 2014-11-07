@@ -22,6 +22,10 @@ end
 
 gem 'jquery-rails'
 
+group :development, :test do
+  gem 'rspec-rails', '~> 3.0.0'
+end
+
 gem 'active_attr', '~> 0.8.0'
 gem 'rest-client', '~> 1.6.7'
 

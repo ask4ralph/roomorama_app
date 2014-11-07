@@ -1,2 +1,9 @@
 <h1>Demo#index</h1>
-<p>Find me in app/views/demo/index.html.erb</p>
+<% if @response %>
+	<p>Response: <%= @response %> </p>
+<% else %>
+    <p>An error occured while creating rooms. </p>
+<% end %>
+
+
+
